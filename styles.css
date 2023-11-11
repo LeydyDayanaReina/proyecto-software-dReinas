@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: floralwhite;
+  background-size: cover;
+  background-position: centerbottom;
+  background-repeat: no-repeat;
+}
+
+body.home-bg {
+  background-image: url(img/fondoinicio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffcc00;
+}
+
+.nav a:hover {
+  color: #f17373;
+}
+
+.main {
+  padding: 20px;
+}
+
+.services {
+  display: flex;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.service-item {
+  align-content: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.service-item h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+  padding: 20px;
+}
+
+.appointment h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.appointment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.appointment-form label,
+.appointment-form input,
+.appointment-form select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.appointment-form input,
+.appointment-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.appointment-form input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.gallery h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.gallery-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.blog h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.blog-post {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.blog-post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  margin-bottom: 10px;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.blog-post a {
+  display: block;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+#loginForm {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loginForm h2 {
+  text-align: center;
+  color: #333;
+}
+
+#loginForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#loginForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#loginForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#loginForm button:hover {
+  background-color: #333;
+}
+
+#loginMessage {
+  text-align: center;
+  color: #f00;
+  margin-top: 10px;
+}
